@@ -20,7 +20,7 @@ public:
     float RotatorFactor = 1.0f;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debugging")
-    int rotor_count = 6;
+    int rotor_count = 4;
 
     AFlyingPawn();
     virtual void BeginPlay() override;
